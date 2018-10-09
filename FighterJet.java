@@ -23,7 +23,9 @@ public class FighterJet extends AirplaneBuilder {
 
 	@Override
 	public void buildSeats(){
-
+		airplane.crewSeats=1;
+		airplane.passengerSeats=2;
+				
 	}
 
 	@Override
@@ -33,6 +35,6 @@ public class FighterJet extends AirplaneBuilder {
 
 	@Override
 	public Airplane GetAirplane(){
-		return null;
+		return airplane;
 	}
 }//end FighterJet
